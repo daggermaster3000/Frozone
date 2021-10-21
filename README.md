@@ -63,7 +63,7 @@
 
 
 Here's the code for controlling the FROZONE device used to measure Antifreeze proteins characteristics. For more information: https://2021.igem.org/Team:UNILausanne/Software
-
+The 3D file for the build is in peltier-assembly.stl more info on https://2021.igem.org/Team:UNILausanne/Experiments
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 

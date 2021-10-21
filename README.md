@@ -21,12 +21,13 @@
 
 
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT LOGO 
 <br />
 <div align="center">
   <a href="https://github.com/igemsoftware2021/UNILausanne-Frozone">
     <img src="edna-logo.png" alt="Logo" width="80" height="80">
   </a>
+  -->
 
 <h3 align="center">EDNA</h3>
 

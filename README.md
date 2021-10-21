@@ -106,7 +106,12 @@ For the code to function on your setup you need to replace the id of your instru
         DLM6010 = rm.open_resource('GPIB0::29::INSTR')      #Insert here the name of power supply (find names in the NIMAX software in scan devices)
         DLM6010.write('SOUR:CURR 5.0') 
  ```
-  
+To run the code you can simply run from your code editor or from the terminal
+
+```terminal
+python EDNA.py
+
+ ```
 The GUI is pretty straightforward, a spinbox to change the temperature, and an excel file is written on exit of the program.
 
 <img src="T--UNILausanne--GUI-SCREEN.png" alt="Logo" width="100%" height="100%">

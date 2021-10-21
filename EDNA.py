@@ -2,6 +2,9 @@
 """
 Spyder Editor
 Code for the frozone...
+Very basic but it works
+
+
 """
 
 import matplotlib
@@ -31,8 +34,8 @@ def main():
     elapsed_time = 0
     
     try:
-        U1272a = rm.open_resource('ASRL4::INSTR')
-        DLM6010 = rm.open_resource('GPIB0::29::INSTR')
+        U1272a = rm.open_resource('ASRL4::INSTR')       # Insert here the name of thermometer module
+        DLM6010 = rm.open_resource('GPIB0::29::INSTR')      #Insert here the name of power supply (find names in the NIMAX software in scan devices)
         DLM6010.write('SOUR:CURR 5.0') 
     except:
         pass
